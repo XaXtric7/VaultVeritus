@@ -1,93 +1,101 @@
-# Welcome to VaultVertis
+# VaultVeritus 🔐
 
-## Project Info
+**VaultVeritus** is an open-source password strength analyzer designed to help users evaluate and improve their passwords. It provides real-time feedback on password strength, highlighting areas for enhancement to ensure robust security practices.
 
-**URL**: <YOUR_PROJECT_URL>
+## 🔍 Features
 
-## How Can I Edit This Code?
+- **Real-Time Analysis:** Instantly evaluates password strength as users type.
+- **Comprehensive Criteria Checks:**
+  - Minimum and maximum length requirements.
+  - Inclusion of uppercase and lowercase letters.
+  - Presence of numbers and special characters.
+  - Detection of common or easily guessable passwords.
+- **User-Friendly Interface:** Clean and intuitive design for seamless user experience.
+- **Responsive Design:** Optimized for various devices and screen sizes.
 
-There are several ways to edit your application.
+## 🛠️ Technologies Used
 
-### Use Your Preferred IDE
+- **Frontend:**
+  - [Vite](https://vitejs.dev/) – Fast and lightweight build tool.
+  - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework.
+  - [TypeScript](https://www.typescriptlang.org/) – Typed superset of JavaScript.
+- **Package Management:**
+  - [Bun](https://bun.sh/) – Modern JavaScript runtime and package manager.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will be reflected in the repository.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+Ensure you have the following installed:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- [Bun](https://bun.sh/docs/installation) (or alternatively, [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/))
 
-# Step 2: Navigate to the project directory.
-cd vaultvertis
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **Clone the Repository:**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+   ```bash
+   git clone https://github.com/XaXtric7/VaultVeritus.git
+   cd VaultVeritus
+   ```
+
+2. **Install Dependencies:**
+
+   Using Bun:
+
+   ```bash
+   bun install
+   ```
+
+   Or using npm:
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server:**
+
+   Using Bun:
+
+   ```bash
+   bun dev
+   ```
+
+   Or using npm:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the Application:**
+
+   Open your browser and navigate to `http://localhost:5173` to view the application.
+
+## 📁 Project Structure
+
+```
+VaultVeritus/
+├── public/             # Static assets
+├── src/                # Source code
+│   ├── components/     # Reusable UI components
+│   ├── styles/         # Tailwind CSS configurations
+│   └── main.tsx        # Entry point
+├── index.html          # HTML template
+├── package.json        # Project metadata and scripts
+├── tailwind.config.ts  # Tailwind CSS configuration
+├── tsconfig.json       # TypeScript configuration
+└── vite.config.ts      # Vite configuration
 ```
 
-### Edit a File Directly in GitHub
+## 🧪 Testing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit them.
+_Note: Testing scripts and configurations are currently under development._
 
-### Use GitHub Codespaces
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace, then commit and push your changes once you're done.
+This project is licensed under the [MIT License](LICENSE).
 
-## Technologies Used in This Project
+## 🙌 Acknowledgements
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How Can I Deploy This Project?
-
-To deploy this project, use a hosting service like Vercel or Netlify.
-
-### Deploying on Vercel
-
-1. Install the Vercel CLI:
-   ```sh
-   npm install -g vercel
-   ```
-2. Run the following command to deploy:
-   ```sh
-   vercel
-   ```
-
-### Deploying on Netlify
-
-1. Install the Netlify CLI:
-   ```sh
-   npm install -g netlify-cli
-   ```
-2. Run the following command to deploy:
-   ```sh
-   netlify deploy
-   ```
-
-## Using a Custom Domain
-
-If you want to deploy your project under your own domain, you can set up custom domains with Netlify or Vercel.
-
-- For Netlify, follow their [Custom Domains Guide](https://docs.netlify.com/domains-https/custom-domains/).
-- For Vercel, follow their [Custom Domains Guide](https://vercel.com/docs/concepts/projects/custom-domains).
-
----
-
-Made by **Suchitra Shankar Srivastava**
-
+- Inspired by the need for stronger password practices.
+- Built with modern web development tools and best practices.
