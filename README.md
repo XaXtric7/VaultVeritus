@@ -2,6 +2,26 @@
 
 **VaultVeritus** is an open-source password strength analyzer designed to help users evaluate and improve their passwords. It provides real-time feedback on password strength, highlighting areas for enhancement to ensure robust security practices.
 
+## 📷 Screenshots
+
+![Image](https://github.com/user-attachments/assets/8e5e08ba-f232-47dd-9346-2c4297a0c2c4)
+
+![Image](https://github.com/user-attachments/assets/9f7013cb-3976-482b-8461-73c8e90cd3d5)
+
+![Image](https://github.com/user-attachments/assets/4f4c1399-4d42-446a-98bb-3261277f8d67)
+
+![Image](https://github.com/user-attachments/assets/9d3ec7ba-7abf-4ed5-8f4f-72bd272cd1c7)
+
+![Image](https://github.com/user-attachments/assets/931778f1-2237-4c08-b414-31cda9a5653e)
+
+![Image](https://github.com/user-attachments/assets/39bcf0c5-19cb-41a6-87d9-462c8c49bcff)
+
+![Image](https://github.com/user-attachments/assets/182059c3-efea-43b3-be03-03f46c917d45)
+
+![Image](https://github.com/user-attachments/assets/e94a805f-92aa-45e5-b96a-2f14c916e986)
+
+![Image](https://github.com/user-attachments/assets/779e2965-0e12-4904-b8cf-d101485a3199)
+
 ## 🔍 Features
 
 - **Real-Time Analysis:** Instantly evaluates password strength as users type.
