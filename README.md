@@ -115,6 +115,11 @@ _Note: Testing scripts and configurations are currently under development._
 
 This project is licensed under the [MIT License](LICENSE).
 
+## 📽️ PPT
+
+📁 [Download Presentation - VaultVeritus.pptx](https://github.com/user-attachments/files/19720259/VaultVeritus.pptx)
+📁 [Diagrams.pdf](https://github.com/user-attachments/files/19720261/Diagrams.pdf)
+
 ## 🙌 Acknowledgements
 
 - Inspired by the need for stronger password practices.
